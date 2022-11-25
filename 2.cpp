@@ -94,7 +94,11 @@ void goShop(){
         for(int i = 1; i <= item_total; i++){
             cout << "| " << i << "  | "<< setw(16) << left << shop[i].snack_name << "| " << setw(3) << left << shop[i].quantity << "| " << setw(7) << left << shop[i].price << "| " << setw(7) << left << shop[i].total << "|" << endl;
             resultMiniLine();
+            pay += shop[i].total;
         }
+
+        cout << "| " << setw(35) << left << "Total you have to Pay" << "| " << setw(7) << left << pay << "|" << endl;
+        resultMiniLine();
 
     } else {
         miniline();
