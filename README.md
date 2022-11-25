@@ -19,7 +19,6 @@ FORMAT REPOSITORY UTS_DAA5_NIM
 
 **Nama : Johanes Alberto Siahaan
 
-NIM  : 211401043
+**NIM  : 211401043
 
-Lab  : 5
-**
+**Lab  : 5
